@@ -1,0 +1,14 @@
+{
+  "name": "order-subject",
+  "version": "1.0.0",
+  "description": "Trader's order info multicasts to the two subscribers. Install ts-node package to run it.",
+  "main": "orderSubject.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vlad",
+  "license": "ISC",
+  "dependencies": {
+    "rxjs": "^6.2.2"
+  }
+}
