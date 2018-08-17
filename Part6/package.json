@@ -1,0 +1,14 @@
+{
+  "name": "subscribing-to-interval",
+  "version": "1.0.0",
+  "description": "Subscribing to interval() observable discarding sequential item value.",
+  "main": "subscribingToInterval.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vlad",
+  "license": "ISC",
+  "dependencies": {
+    "rxjs": "^6.2.2"
+  }
+}
