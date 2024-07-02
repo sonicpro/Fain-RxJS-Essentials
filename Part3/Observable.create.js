@@ -25,6 +25,7 @@ const beerObservable$ = Observable.create(observer =>
                                               
                                               return function () {
                                                   subscribed = false;
+                                                  console.log('Unsubscribed!');
                                               };
                                           });
 
@@ -35,3 +36,4 @@ const beerObserver = {
 };
 
 const sub = beerObservable$.subscribe(beerObserver);
+sub.unsubscribe();
